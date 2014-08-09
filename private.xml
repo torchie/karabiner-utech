@@ -28,8 +28,8 @@
         <autogen>__KeyToKey__ KeyCode::KEY_9, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
         
-        <autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::QUOTE, ModifierFlag::CONTROL_L</autogen>
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_11, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::KEY_12, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::KEYPAD_MINUS, KeyCode::BACKQUOTE, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEYPAD_PLUS, KeyCode::TAB, ModifierFlag::CONTROL_L</autogen>
     </item>
 </root>
