@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<root>
+    <devicevendordef>
+        <vendorname>UTECHSMART</vendorname>
+        <vendorid>0x04d9</vendorid>
+    </devicevendordef>
+    <deviceproductdef>
+        <productname>VENUS</productname>
+        <productid>0xfa58</productid>
+    </deviceproductdef>
+    <item>
+        <name>THE FIRE ALBUM</name>
+        <identifier>private_venusshit</identifier>
+        <device_only>DeviceVendor::UTECHSMART, DeviceProduct::VENUS</device_only>
+        <autogen>__KeyToKey__
+            KeyCode::KEY_1,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_2,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L</autogen>
+        
+        <autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L</autogen>
+        
+        <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+        
+        <autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::OPTION_R</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_9, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
+        
+        <autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::QUOTE, ModifierFlag::CONTROL_L</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_11, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_12, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>-->
+    </item>
+</root>
